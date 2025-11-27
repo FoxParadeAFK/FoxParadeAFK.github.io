@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
 import Abouts from './About_Page'
-import Favourites from './Favourite_Page'
+import Skills from './Skills_Page'
 
 function App() {
   return (
     <>
-      <Favourites />
+      <Abouts />
     </>
   )
 }
