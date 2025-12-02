@@ -1,4 +1,5 @@
 import styles from './Head.module.css'
+import { useNavigate } from 'react-router-dom'
 
 function Head() {
   let profile = {
@@ -23,11 +24,12 @@ function Head() {
 }
 
 function Navigation() {
+  let navigate = useNavigate();
   return (
     <div className = {styles.navigation}> 
-      <button className = {styles.button}> 
+      <button className = {styles.button} onClick = {() => navigate("/")}> 
         <p className = {styles.content}> Home </p> </button>
-      <button className = {styles.button}> 
+      <button className = {styles.button} onClick = {() => navigate("/about")}> 
         <p className = {styles.content}> About </p> </button> 
       <button className = {styles.button}> 
         <p className = {styles.content}> Projects </p> </button>
