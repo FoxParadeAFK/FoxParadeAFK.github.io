@@ -1,0 +1,22 @@
+.content {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    vertical-align: baseline;
+}
+
+.button {
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
+.image {
+    height: 1rem;
+    width: auto;
+}
