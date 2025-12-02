@@ -17,22 +17,22 @@ function About() {
 
       <div style = {{display: 'flex', flexWrap: 'wrap'}}> 
         <Card 
-          image = {{ path: './_images/Logo_Godot.png', alt: "Godot" }} 
+          image = {{ path: '/_images/Logo_Godot.png', alt: "Godot" }} 
           description = "Godot  ∙  Game Engine"/>
         <Card 
-          image = {{ path: "./_images/Logo_Aseprite.png", alt: "Aseprite" }} 
+          image = {{ path: "/_images/Logo_Aseprite.png", alt: "Aseprite" }} 
           description = "Aseprite  ∙  2D Pixel Art"/>
         <Card 
-          image = {{ path: "./_images/Logo_VS.png", alt: "VScode" }} 
+          image = {{ path: "/_images/Logo_VS.png", alt: "VScode" }} 
           description = "VScode  ∙  Code Editor"/>
         <Card 
-          image = {{ path: "./_images/Logo_Git.png", alt: "Git" }} 
+          image = {{ path: "/_images/Logo_Git.png", alt: "Git" }} 
           description = "Git  ∙  Version Control"/>
         <Card 
-          image = {{ path: "./_images/Logo_Linux.png", alt: "Linux" }} 
+          image = {{ path: "/_images/Logo_Linux.png", alt: "Linux" }} 
           description = "Linux  ∙  Unbuntu"/>
         <Card 
-          image = {{ path: "./_images/Logo_Notebook.png", alt: "Jupyter Notebooks" }} 
+          image = {{ path: "/_images/Logo_Notebook.png", alt: "Jupyter Notebooks" }} 
           description = "Jupyter Notebooks  ∙  Notebooks"/>
       </div>
 
