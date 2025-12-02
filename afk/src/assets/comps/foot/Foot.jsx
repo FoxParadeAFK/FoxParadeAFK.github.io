@@ -11,6 +11,12 @@ function Foot() {
           <p className = {styles.description}> LinkedIn </p>  
           <p className = {styles.description}> Itch.io </p>  
         </address>
+
+        <p style = {{
+          fontStyle: 'italic',
+          fontSize: 12,
+          textAlign: 'center'
+        }}> 2025 Built with React, deployed with Vite and hosted on GitHub Pages </p>
       </footer>
     </>
   )
