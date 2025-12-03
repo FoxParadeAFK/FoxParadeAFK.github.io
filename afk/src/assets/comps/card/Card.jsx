@@ -6,20 +6,18 @@ function Card({
 }) {
   if (image) {
     return (
-      <button className = {styles.button}>
-        <p className = {styles.content}>    
-          <img 
-            className = {styles.image} 
-            src = {image.path} 
-            alt = {image.alt}>
-          </img>
-        </p>
-        <p className = {styles.content}> {description} </p>
+      <button type = 'button' className = {styles.button}>
+        <div style = {{display: 'flex'}}>
+          <span className = {styles.content}>    
+            <img className = {styles.image} src = {image.path} alt = {image.alt}></img>
+          </span>
+          <span className = {styles.content}> {description} </span>
+        </div>
       </button>
     )
   }
   return (
-    <button className = {styles.button}>
+    <button type = 'button' className = {styles.button}>
       <p className = {styles.content}> {description} </p>
     </button>
   )

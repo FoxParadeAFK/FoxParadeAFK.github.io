@@ -1,31 +1,40 @@
-.content {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    vertical-align: baseline;
-    text-align: left;
-}
-
 .button {
-    display: flex;
-    border-radius: 10px;
-    border: none;
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
+	border: none;
+	border-radius: 10px;
+	width: 100%;
+	padding: 0.1em 1em 0.1em 1em;
+	margin: 0.25em 0.5em 0.25em 0.5em;
 }
 
-.description {
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 100%;
-  text-align: left;
+.button:hover {
+	background-color: rgb(248, 248, 248);
 }
 
 .image {
-    height: 5rem;
-    width: auto;
+	height: 7em;
+	width: auto;
+	display: block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.content {
+	margin: 0.5em 0.6em 0.5em 0.6em;
+	vertical-align: middle;
+}
+
+.description {
+	margin: auto;
+	text-align: right;
+	width: 100%;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+#title {
+	font-size: small;
+}
+
+#author {
+	color: rgb(46, 46, 46);
 }

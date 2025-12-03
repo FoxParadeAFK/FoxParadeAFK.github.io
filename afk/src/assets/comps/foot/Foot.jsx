@@ -4,12 +4,17 @@ function Foot() {
   return (
     <> 
       <footer> 
-        <h4 className = {styles.header}> Contacts </h4>
+        <h3 className = {styles.header}> Contacts </h3>
         <address> 
-          <p className = {styles.description}> Email </p>
-          <p className = {styles.description}> GitHub </p>
-          <p className = {styles.description}> LinkedIn </p>  
-          <p className = {styles.description}> Itch.io </p>  
+          <p className = {styles.description}>
+            <a className = {styles.description} href = "mailto:siuwon010@gmail.com"> Email </a>  
+          </p>
+          <p className = {styles.description}>
+            <a className = {styles.description} href = "https://github.com/FoxParadeAFK"> GitHub </a>  
+          </p>
+          <p className = {styles.description}>
+            <a className = {styles.description} href = "https://www.linkedin.com/in/siu-kitt-wong-07b89a299/"> Linkedln </a>  
+          </p>
         </address>
 
         <p style = {{
