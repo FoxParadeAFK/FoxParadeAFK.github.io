@@ -32,9 +32,7 @@ function About() {
       </div>
 
       <Descriptor header = "Books" description = "Books I'm trying to finish; I've been trying to read a tad more lately..."/>
-      <div style = {{display: 'flex', flexWrap: 'wrap'}}> 
-        {books.map((book) => (<Book key = {book.id} {...book} />))}
-      </div>
+      {books.map((book) => (<Book key = {book.id} {...book} />))}
       <Foot />
     </>
   )

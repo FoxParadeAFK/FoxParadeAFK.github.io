@@ -1,14 +1,11 @@
 .descriptor {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5em 0em 0.5em 0em;
 }
 
 .header {
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  margin: 0.4em 0em 0.4em 0em;
 }
 
 .description {
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  margin: 0.25em 0em 0.25em 0em;
 }

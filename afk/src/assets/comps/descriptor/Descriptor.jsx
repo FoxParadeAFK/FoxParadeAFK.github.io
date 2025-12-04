@@ -12,20 +12,24 @@ function Descriptor({
   )
 }
 
-function Header({
-  header
+function Header({ 
+  header,
 }) {
-  <div className = {styles.descriptor}> 
-    <h3 className = {styles.header}> {header} </h3>
-  </div>
+  return (
+    <div className = {styles.descriptor}> 
+      <h3 className = {styles.header}> {header} </h3>
+    </div>
+  )
 }
 
-function Description({
-  description
+function Description({ 
+  description,
 }) {
-  <div className = {styles.descriptor}> 
-    <p className = {styles.description}> {description} </p>
-  </div>
+  return (
+    <div className = {styles.descriptor}> 
+      <p className = {styles.description}> {description} </p>
+    </div>
+  )
 }
 
 export { Descriptor, Header, Description }
